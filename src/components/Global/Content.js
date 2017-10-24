@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
-import logo from './images/logo.svg';
-import './css/header.css';
+import './css/content.css';
 
-class Header extends Component {
+class Content extends Component {
   render() {
     return (
-      <div className="Header">
-        <div className="Logo">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Hello word</h2>
-        </div>
+      <div className="Content">
+        <h1>Contenido</h1>
       </div>
     );
   }
 }
 
-export default Header;
+export default Content;
